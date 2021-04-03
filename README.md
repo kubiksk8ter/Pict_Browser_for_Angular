@@ -2,7 +2,7 @@
 Pict browser is angular @Injectable class for image browsing with presentation and swipe listener for touch devices.
 <h2>Usage</h2>
 Simply inject <strong>pict-browser.service.ts</strong> to constructor of your <strong>component.ts</strong>.
-<br>
+<br><br>
 <code>
   import { PictBrowser } from '../pict-browser.service';
 </code><br>
