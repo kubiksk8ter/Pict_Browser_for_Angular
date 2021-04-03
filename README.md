@@ -6,11 +6,11 @@ Simply inject <strong>pict-browser.service.ts</strong> to constructor of your <s
 <code>
   import { PictBrowser } from '../pict-browser.service';
 </code><br>
-  ...
+  ...<br>
 <code>
   constructor(private browser: PictBrowser) {}
 </code><br>
-  ...
+  ...<br>
 <code>  
   this.browser.openPictBrowser(srcs: string[], num: number);
 </code><br>
