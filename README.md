@@ -20,3 +20,4 @@ Simply inject <strong>pict-browser.service.ts</strong> to constructor of your <s
 <code>
   //num: the image number from the array on which the browser is to be initialized
 </code><br>
+<img src="https://www.dropbox.com/s/h8e0mgm2hq7gatv/example%20img.png?dl=0">
