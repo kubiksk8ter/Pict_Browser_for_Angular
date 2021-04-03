@@ -5,18 +5,18 @@ Simply inject <strong>pict-browser.service.ts</strong> to constructor of your <s
 <h4>Example</h4>
 <code>
   import { PictBrowser } from '../pict-browser.service';
-</code>
+</code><br>
   ...
 <code>
   constructor(private browser: PictBrowser) {}
-</code>
+</code><br>
   ...
 <code>  
   this.browser.openPictBrowser(srcs: string[], num: number);
-</code>
+</code><br>
 <code>
   //srcs: image sources array
-</code>
+</code><br>
 <code>
   //num: the image number from the array on which the browser is to be initialized
-</code>
+</code><br>
