@@ -4,11 +4,19 @@ Pict browser is angular @Injectable class for image browsing.
 Simply inject <strong>pict-browser.service.ts</strong> to constructor of your <strong>component.ts</strong>.
 <h4>Example</h4>
 <code>
-  import { PictBrowser } from '../pict-browser.service';/n
-  .../n
-  constructor(private browser: PictBrowser) {}/n
-  .../n
-  this.browser.openPictBrowser(srcs: string[], num: number);/n
-  //srcs: image sources array/n
-  //num: the image number from the array on which the browser is to be initialized/n
+  import { PictBrowser } from '../pict-browser.service';
+</code>
+  ...
+<code>
+  constructor(private browser: PictBrowser) {}
+</code>
+  ...
+<code>  
+  this.browser.openPictBrowser(srcs: string[], num: number);
+</code>
+<code>
+  //srcs: image sources array
+</code>
+<code>
+  //num: the image number from the array on which the browser is to be initialized
 </code>
