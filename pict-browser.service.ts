@@ -77,6 +77,7 @@ export class PictBrowser {
   private createGalleryPicBrowser() {
       const lastElement = document.getElementById('gallery-pic-browser');
       const element = document.body;
+      const left = window.pageXOffset;
           
       if(lastElement) {
           this.renderer.removeChild(element, lastElement);
@@ -89,7 +90,7 @@ export class PictBrowser {
       
       this.renderer.setAttribute(div, 'style', `
         background-color: black;
-        position: absolute;
+        position: absolute; left: ${left}px;
         width: 100%; height: 100%;
         z-index: 2;
         top: ${top}px
